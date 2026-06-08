@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IndexFit — Turn your fitness into a sport</title>
+  <meta name="description" content="IndexFit turns your strength training and running into a fantasy sport. Track workouts, earn fantasy points, climb leagues with friends, and train smarter with an AI coach. Syncs with Apple Health and Apple Watch." />
+  <meta name="theme-color" content="#050506" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/app-icon.png" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="IndexFit — Turn your fitness into a sport" />
+  <meta property="og:description" content="Track workouts, earn fantasy points, and compete in leagues with friends. Powered by an AI coach and Apple Health." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/app-icon.png" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand">
+        <img src="assets/logo.png" alt="IndexFit logo" />
+        <span>IndexFit</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#features">Features</a>
+        <a href="#leagues">Leagues</a>
+        <a href="#how">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="support.html">Support</a>
+      </nav>
+      <div class="nav-cta">
+        <a href="#download" class="btn btn-prism">Download</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-glow"></div>
+    <div class="container">
+      <span class="eyebrow reveal"><span class="dot"></span> Fantasy sports for your real workouts</span>
+      <h1 class="reveal">Turn your fitness into <span class="prism-text">a sport.</span></h1>
+      <p class="lead reveal">
+        IndexFit scores every lift, run, and recovery day — then puts you head-to-head
+        with friends in weekly fantasy leagues. Train smarter with an AI coach built
+        right into your pocket.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#download" class="appstore-btn">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M16.36 12.71c-.02-2.05 1.68-3.03 1.75-3.08-.95-1.4-2.43-1.59-2.96-1.61-1.26-.13-2.46.74-3.1.74-.64 0-1.62-.72-2.67-.7-1.37.02-2.64.8-3.35 2.03-1.43 2.48-.37 6.15 1.02 8.16.68.98 1.49 2.08 2.55 2.04 1.03-.04 1.42-.66 2.66-.66 1.24 0 1.59.66 2.67.64 1.1-.02 1.8-1 2.47-1.99.78-1.14 1.1-2.25 1.12-2.31-.02-.01-2.15-.82-2.17-3.26zM14.4 6.49c.56-.68.94-1.62.84-2.56-.81.03-1.79.54-2.37 1.22-.52.6-.97 1.56-.85 2.48.9.07 1.82-.46 2.38-1.14z"/>
+          </svg>
+          <span class="as-label">
+            <span class="as-small">Download on the</span>
+            <span class="as-big">App Store</span>
+          </span>
+        </a>
+        <a href="#how" class="btn btn-ghost">See how it works</a>
+      </div>
+      <div class="hero-sub reveal">
+        <span class="stars">★★★★★</span>
+        <span>Loved by lifters &amp; runners · Free 3-month trial</span>
+      </div>
+
+      <!-- Showcase -->
+      <div class="hero-showcase reveal">
+        <div class="float-card float-1">
+          <div class="fc-icon" style="background:rgba(61,220,132,.16)">🏆</div>
+          <div>
+            <div class="fc-title">New personal record</div>
+            <div class="fc-sub">Back Squat · 315 lb</div>
+          </div>
+        </div>
+
+        <div class="float-card float-2">
+          <div class="fc-icon" style="background:rgba(33,212,253,.16)">⚡️</div>
+          <div>
+            <div class="fc-title">+248 pts today</div>
+            <div class="fc-sub">You moved to 1st in your league</div>
+          </div>
+        </div>
+
+        <div class="float-card float-3">
+          <div class="fc-icon" style="background:rgba(177,75,255,.18)">🤖</div>
+          <div>
+            <div class="fc-title">AI Coach</div>
+            <div class="fc-sub">Built you a 4-day push/pull split</div>
+          </div>
+        </div>
+
+        <div class="phone">
+          <div class="phone-screen">
+            <div class="phone-notch"></div>
+            <div class="mock">
+              <div class="mock-greeting">Good morning, Brandan</div>
+              <div class="mock-card prism-card">
+                <div class="mc-label">Weekly fantasy points</div>
+                <div class="mc-points">1,284</div>
+                <div class="mc-sub">Health + Strength + Running · 1st of 12</div>
+                <div class="mock-bars">
+                  <span style="height:40%"></span>
+                  <span style="height:65%"></span>
+                  <span style="height:50%"></span>
+                  <span style="height:80%"></span>
+                  <span style="height:70%"></span>
+                  <span style="height:95%"></span>
+                  <span style="height:100%"></span>
+                </div>
+              </div>
+              <div class="mock-row">
+                <div class="mock-card">
+                  <div class="mc-label">Volume</div>
+                  <div class="mc-stat">42,180 lb</div>
+                </div>
+                <div class="mock-card">
+                  <div class="mc-label">Distance</div>
+                  <div class="mc-stat">18.4 mi</div>
+                </div>
+              </div>
+              <div class="mock-card">
+                <div class="mc-label">This week's PRs</div>
+                <div class="mc-stat">3 new bests 🔥</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>Strength</span><span>Running</span><span>Fantasy Leagues</span>
+      <span>AI Coach</span><span>Personal Records</span><span>Apple Health</span>
+      <span>Apple Watch</span><span>Groups</span>
+      <span>Strength</span><span>Running</span><span>Fantasy Leagues</span>
+      <span>AI Coach</span><span>Personal Records</span><span>Apple Health</span>
+      <span>Apple Watch</span><span>Groups</span>
+    </div>
+  </div>
+
+  <!-- ============ STATS ============ -->
+  <section>
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat reveal">
+          <div class="num" data-count="10" data-suffix="">10</div>
+          <div class="label">Scoring categories</div>
+        </div>
+        <div class="stat reveal">
+          <div class="num" data-count="4" data-suffix="">4</div>
+          <div class="label">Fantasy league types</div>
+        </div>
+        <div class="stat reveal">
+          <div class="num" data-count="100" data-suffix="%">100%</div>
+          <div class="label">Synced with Apple Health</div>
+        </div>
+        <div class="stat reveal">
+          <div class="num" data-count="7" data-suffix="-day">7-day</div>
+          <div class="label">Rolling weekly matchups</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURES (bento) ============ -->
+  <section id="features">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="dot"></span> Everything in one app</span>
+        <h2>Built for people who <span class="prism-text">love to compete</span></h2>
+        <p>Log your training, watch it turn into points, and battle your friends every single week.</p>
+      </div>
+
+      <div class="bento">
+        <div class="feature col-4 feature-hero reveal" style="background-image:url('assets/mesh-1.png')">
+          <h3>Your workouts become fantasy points</h3>
+          <p>Every set, mile, and recovery metric is scored with the same engine as fantasy sports — diminishing returns, category caps, and PR bonuses keep it fair and impossible to game.</p>
+        </div>
+
+        <div class="feature col-2 reveal">
+          <div class="f-icon">🤖</div>
+          <h3>AI coach</h3>
+          <p>Ask anything, or have it build full strength &amp; running routines tailored to your goals.</p>
+        </div>
+
+        <div class="feature col-2 reveal">
+          <div class="f-icon">🏋️</div>
+          <h3>Strength &amp; running</h3>
+          <p>One app for the gym and the road. Track lifts, splits, distance, and volume in one place.</p>
+        </div>
+
+        <div class="feature col-2 reveal">
+          <div class="f-icon">❤️</div>
+          <h3>Apple Health &amp; Watch</h3>
+          <p>Heart rate, calories, sleep, and resting HR sync automatically from your Apple Watch.</p>
+        </div>
+
+        <div class="feature col-2 reveal">
+          <div class="f-icon">🎯</div>
+          <h3>Personal records</h3>
+          <p>Auto-detected PRs across every exercise, with celebrations and bonus points when you hit one.</p>
+        </div>
+
+        <div class="feature col-3 reveal">
+          <div class="f-icon">📲</div>
+          <h3>Import from social</h3>
+          <p>Drop a TikTok or Instagram workout and let AI turn it into a structured, trackable routine in seconds.</p>
+        </div>
+
+        <div class="feature col-3 reveal">
+          <div class="f-icon">🥇</div>
+          <h3>Badges &amp; milestones</h3>
+          <p>Earn collectible badges for streaks, PRs, and big weeks — and show them off on your profile.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LEAGUES ============ -->
+  <section id="leagues">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="dot"></span> The main event</span>
+        <h2>Weekly leagues with <span class="prism-text">your crew</span></h2>
+        <p>Pick your format, invite friends, and chase the top of the table. Points only go up during the week — so every workout matters.</p>
+      </div>
+
+      <div class="bento">
+        <div class="feature col-3 reveal">
+          <div class="f-icon">💪</div>
+          <h3>Strength + Running</h3>
+          <p>The all-rounder. Volume, training days, distance, and PRs across both disciplines decide the winner.</p>
+        </div>
+        <div class="feature col-3 reveal">
+          <div class="f-icon">❤️</div>
+          <h3>Health + Strength + Running</h3>
+          <p>The full picture — all 10 categories, including calories, sleep, and resting heart rate.</p>
+        </div>
+        <div class="feature col-3 reveal">
+          <div class="f-icon">🏋️</div>
+          <h3>Strength Only</h3>
+          <p>For the gym rats. Pure volume, strength days, and strength PRs go head to head.</p>
+        </div>
+        <div class="feature col-3 reveal">
+          <div class="f-icon">🏃</div>
+          <h3>Running Only</h3>
+          <p>For the milers. Distance, running days, and split PRs with boosted scoring caps.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section id="how">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="dot"></span> How it works</span>
+        <h2>From first set to <span class="prism-text">first place</span></h2>
+        <p>Getting started takes a couple of minutes. Winning takes a little more.</p>
+      </div>
+
+      <div class="steps">
+        <div class="step reveal">
+          <div class="s-num">STEP 01</div>
+          <h3>Sign in &amp; connect</h3>
+          <p>Sign in with Apple and connect Apple Health in one tap. Your watch data flows in automatically.</p>
+        </div>
+        <div class="step reveal">
+          <div class="s-num">STEP 02</div>
+          <h3>Log your training</h3>
+          <p>Start a workout, log lifts and runs, or import a routine from social. The AI coach can build one for you.</p>
+        </div>
+        <div class="step reveal">
+          <div class="s-num">STEP 03</div>
+          <h3>Compete &amp; climb</h3>
+          <p>Join leagues with friends, rack up fantasy points all week, and watch yourself rise up the table.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRICING ============ -->
+  <section id="pricing">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="dot"></span> Pricing</span>
+        <h2>Start free. Go <span class="prism-text">Pro</span> when you're hooked.</h2>
+        <p>Every new member gets a 3-month free workout trial. Upgrade to IndexFit Pro to unlock unlimited everything.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <div class="price-card reveal">
+          <div class="tier">Free</div>
+          <div class="price-tag">
+            <span class="amount">$0</span>
+          </div>
+          <p class="tier-desc">Everything you need to get started and feel the competition.</p>
+          <ul class="feat-list">
+            <li><span class="check">✓</span> 3 months of unlimited workouts</li>
+            <li><span class="check">✓</span> Up to 2 active leagues</li>
+            <li><span class="check">✓</span> Workout history forever</li>
+            <li><span class="check">✓</span> Apple Health &amp; Watch sync</li>
+            <li class="muted"><span class="check">✓</span> AI coach &amp; routine builder</li>
+            <li class="muted"><span class="check">✓</span> Direct messages &amp; projections</li>
+          </ul>
+          <a href="#download" class="btn btn-ghost" style="width:100%">Get the app</a>
+        </div>
+
+        <div class="price-card featured reveal">
+          <span class="price-badge">Most popular</span>
+          <div class="tier">IndexFit Pro</div>
+          <div class="price-tag">
+            <span class="amount">$14.99</span>
+            <span class="per">/ month</span>
+          </div>
+          <p class="tier-desc">Or $99.99/year. Unlock the full IndexFit experience.</p>
+          <ul class="feat-list">
+            <li><span class="check">✓</span> Unlimited workouts &amp; leagues</li>
+            <li><span class="check">✓</span> AI assistant (strength + running)</li>
+            <li><span class="check">✓</span> AI routine builder</li>
+            <li><span class="check">✓</span> 100 social imports / month</li>
+            <li><span class="check">✓</span> Direct messages &amp; group chat</li>
+            <li><span class="check">✓</span> Projection views &amp; unlimited boosts</li>
+          </ul>
+          <a href="#download" class="btn btn-prism" style="width:100%">Start free trial</a>
+        </div>
+      </div>
+      <p class="student-note">🎓 Students save with <strong>.edu pricing</strong> — Pro for just $9.99/month or $89.99/year.</p>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section>
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="dot"></span> The locker room</span>
+        <h2>What members are <span class="prism-text">saying</span></h2>
+        <p>IndexFit turned solo training into the most competitive group chat we have.</p>
+      </div>
+
+      <div class="testi-grid">
+        <div class="testi reveal">
+          <p class="quote">"I never skip leg day anymore — my roommates will absolutely lap me in the league. It's the most fun I've had training in years."</p>
+          <div class="who">
+            <div class="avatar">JM</div>
+            <div>
+              <div class="name">Jordan M.</div>
+              <div class="role">Strength + Running league</div>
+            </div>
+          </div>
+        </div>
+        <div class="testi reveal">
+          <p class="quote">"The AI coach built me a half-marathon plan in seconds and it actually adapts to my watch data. Genuinely impressive."</p>
+          <div class="who">
+            <div class="avatar">SP</div>
+            <div>
+              <div class="name">Sara P.</div>
+              <div class="role">Running Only league</div>
+            </div>
+          </div>
+        </div>
+        <div class="testi reveal">
+          <p class="quote">"Hitting a PR and watching my fantasy points jump is weirdly addictive. My whole gym group is on it now."</p>
+          <div class="who">
+            <div class="avatar">DK</div>
+            <div>
+              <div class="name">Devin K.</div>
+              <div class="role">Strength Only league</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section id="download">
+    <div class="container">
+      <div class="cta-wrap reveal">
+        <span class="eyebrow"><span class="dot"></span> Ready to play</span>
+        <h2>Your next PR is a <span class="prism-text">power move.</span></h2>
+        <p>Download IndexFit, invite your crew, and turn this week's workouts into a win.</p>
+        <div class="hero-actions">
+          <a href="#" class="appstore-btn">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M16.36 12.71c-.02-2.05 1.68-3.03 1.75-3.08-.95-1.4-2.43-1.59-2.96-1.61-1.26-.13-2.46.74-3.1.74-.64 0-1.62-.72-2.67-.7-1.37.02-2.64.8-3.35 2.03-1.43 2.48-.37 6.15 1.02 8.16.68.98 1.49 2.08 2.55 2.04 1.03-.04 1.42-.66 2.66-.66 1.24 0 1.59.66 2.67.64 1.1-.02 1.8-1 2.47-1.99.78-1.14 1.1-2.25 1.12-2.31-.02-.01-2.15-.82-2.17-3.26zM14.4 6.49c.56-.68.94-1.62.84-2.56-.81.03-1.79.54-2.37 1.22-.52.6-.97 1.56-.85 2.48.9.07 1.82-.46 2.38-1.14z"/>
+            </svg>
+            <span class="as-label">
+              <span class="as-small">Download on the</span>
+              <span class="as-big">App Store</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <img src="assets/logo.png" alt="IndexFit logo" />
+            <span>IndexFit</span>
+          </a>
+          <p>Fantasy sports for your real workouts. Train, compete, and climb the leaderboard with friends.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Product</h4>
+          <a href="#features">Features</a>
+          <a href="#leagues">Leagues</a>
+          <a href="#how">How it works</a>
+          <a href="#pricing">Pricing</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="support.html">Support</a>
+          <a href="mailto:contact@indexfit.app">Contact</a>
+          <a href="#download">Download</a>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <a href="/privacy">Privacy Policy</a>
+          <a href="/termsofservice">Terms of Service</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> IndexFit. All rights reserved.</span>
+        <span>Made for athletes who love to compete.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
