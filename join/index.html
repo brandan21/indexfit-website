@@ -155,7 +155,7 @@
         return c.replace(/[^0-9a-zA-Z]/g, "").toUpperCase().slice(0, 16);
       }
 
-      var CODE = readCode() || "A1B2C3D4E5";
+      var CODE = readCode();
       // The exact string the app looks for on the clipboard (deferred deep link).
       var INVITE_LINK = "https://indexfit.app/join?code=" + encodeURIComponent(CODE);
       var APP_SCHEME = "indexfit://join?code=" + encodeURIComponent(CODE);
