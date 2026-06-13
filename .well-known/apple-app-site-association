@@ -1,0 +1,19 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["BBPD9FC6UJ.com.brandan.IndexFit1"],
+        "components": [
+          {
+            "/": "/join",
+            "comment": "League invite — code passed as ?code="
+          },
+          {
+            "/": "/join/*",
+            "comment": "League invite — code in path"
+          }
+        ]
+      }
+    ]
+  }
+}
